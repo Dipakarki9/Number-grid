@@ -1,0 +1,40 @@
+* {
+    color:aqua;
+    /* background-color: brown; */
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    field-sizing:1.5px;
+    text-align: center;
+    line-height: 1.5;
+    text-transform:capitalize;
+}
+#para{
+    color:rgb(255, 255, 0);
+}
+.para{
+    color:rgb(57, 215, 52)
+}
+.para:focus{
+    color:black;
+    background-color: rgb(246, 102, 12);
+}
+.value:focus{
+    color:brown;
+    background-color: antiquewhite;
+}
+.value:hover{
+    color:blueviolet;
+}
+.value{
+    
+    border-radius: 20px;
+    padding: 10px;
+    margin:auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 8px;
+}
+h1{
+    text-decoration: rgb(232, 96, 6) underline;
+    
+}
