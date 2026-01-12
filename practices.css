@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    
+}
+
+
+#tables,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    color:rgb(64, 160, 88);
+    border-color:blue;
+    background-color:aliceblue;
+}
+#tables,th{
+    background-color: pink;
+}
