@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+.heading{
+    color:blue;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.para{
+    font-size: 18px;
+    color:rgb(117, 250, 61);
+    line-height: 2.6;
+    text-align: justify;
+    
+}
+.link{
+    display: inline-block;
+    margin-top: 20px;
+    color: brown;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    
+}
