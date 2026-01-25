@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f2f6;
+}
+.price{
+    padding: 60px 20px;
+    text-align: center;
+}
+.price h1{
+    margin-bottom: 40px;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width:260px;
+    padding: 30px 20px ;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: translate(5px);
+
+}
+.month{
+    font-size: 22px;
+    color:#ff4757;
+    
+}
+.card ul li{
+    list-style: none;
+    padding: 0;
+}
+.card button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border:none;
+    background: #ff4757;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
